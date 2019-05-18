@@ -11,8 +11,11 @@
 }
 .head{height: 135px;overflow: hidden;}
 .main{position: absolute;top:135px;left:0px;right:0px;bottom:0px;}
-
-
+.headbg{height: 105px;background: url(../images/headbg.png) no-repeat center;background-size: 100% 100%;margin-top:8px;overflow: hidden;}
+.logoTxt{width: 61%;height: 80px;margin:0 auto;background: url(../images/logotitlebg.png) no-repeat center;margin-top:14px;
+    background-size: 100% 100%;
+}
+.hostedBy{height: 20px;line-height: 20px;text-align: center;font-size: 19px;color:#fbc900;font-weight: bold;}
 
 
 
