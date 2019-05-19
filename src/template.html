@@ -7,6 +7,7 @@
     <link href="style/reset.css" rel="stylesheet" type="text/css" />
     <link href="style/style.css" rel="stylesheet" type="text/css" />
     <link href="style/content.css" rel="stylesheet" type="text/css" />
+    <link href="style/perfect-scrollbar.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div class="content">
@@ -20,4 +21,15 @@
     </div>
 </body>
 <script src="./js/jquery-1.10.2.min.js"></script>
+<script src="./js/perfect-scrollbar.jquery.js"></script>
+<script >
+    $(function (){
+        setScroll();
+    });
+
+    //设置滚动条
+    function setScroll(){
+        $('.hasScroll').perfectScrollbar();
+    }
+</script>
 </html>
