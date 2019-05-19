@@ -4,10 +4,9 @@
   height: 900px;
   background: url(../images/bg.jpg) no-repeat;
   transform-origin: 0 0;
-;
 }
-.head{height: 135px;overflow: hidden;}
-.main{position: absolute;top:135px;left:0px;right:0px;bottom:0px;}
+.head{overflow: hidden;}
+.main{position: absolute;top:106px;left:0px;right:0px;bottom:0px;}
 .headbg{height: 78px;background: url(../images/headebg.png) no-repeat center;margin-top:8px;overflow: hidden;}
 .hostedBy{height: 20px;line-height: 20px;text-align: center;font-size: 19px;color:#fbc900;font-weight: bold;}
 
