@@ -1,3 +1,7 @@
+body {
+    background: url(../images/bg.jpg) no-repeat center top;
+    background-size: cover;
+}
 
 .content {
     position: absolute;
@@ -6,8 +10,7 @@
     right: 0px;
     bottom: 0px;
     overflow: auto;
-    background: url(../images/bg.jpg) no-repeat center top;
-    background-size: cover;
+    transform-origin: top left;
 }
 
 .head {
@@ -37,7 +40,7 @@
     width: 61%;
     height: 80px;
     margin: 0 auto;
-    background: url(../images/logotitlebg.png) no-repeat center;
+    /*background: url(../images/logotitlebg.png) no-repeat center;*/
     margin-top: 14px;
     background-size: 100%;
 }
@@ -767,6 +770,16 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.setWidHei {
+    width: 1920px;
+    height: 1080px;
+    position: relative
+}
+
+/*
+------------------------------------------------------------------------------------------
+*/
 
 .wid110 {
     width: 110px;

@@ -10,7 +10,7 @@
     <link href="style/perfect-scrollbar.min.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div class="content">
+    <div class="content setWidHei" id="container">
         <!--头部-->
         <div class="head">
             <div class="headbg">
@@ -156,6 +156,38 @@
                         </li>
                         <li class="tMRankLi">
                             <div class="tml_index">13</div>
+                            <div class="tml_name">白虎战队</div>
+                            <div class="tml_progress">
+                                <span style="width:100%;"></span>
+                            </div>
+                            <div class="tml_value">5000</div>
+                        </li>
+                        <li class="tMRankLi">
+                            <div class="tml_index">14</div>
+                            <div class="tml_name">白虎战队</div>
+                            <div class="tml_progress">
+                                <span style="width:100%;"></span>
+                            </div>
+                            <div class="tml_value">5000</div>
+                        </li>
+                        <li class="tMRankLi">
+                            <div class="tml_index">15</div>
+                            <div class="tml_name">白虎战队</div>
+                            <div class="tml_progress">
+                                <span style="width:100%;"></span>
+                            </div>
+                            <div class="tml_value">5000</div>
+                        </li>
+                        <li class="tMRankLi">
+                            <div class="tml_index">14</div>
+                            <div class="tml_name">白虎战队</div>
+                            <div class="tml_progress">
+                                <span style="width:100%;"></span>
+                            </div>
+                            <div class="tml_value">5000</div>
+                        </li>
+                        <li class="tMRankLi">
+                            <div class="tml_index">15</div>
                             <div class="tml_name">白虎战队</div>
                             <div class="tml_progress">
                                 <span style="width:100%;"></span>
@@ -622,10 +654,12 @@
 </body>
 <script src="./js/jquery-1.10.2.min.js"></script>
 <script src="./js/perfect-scrollbar.jquery.js"></script>
+<script src="./js/public.js"></script>
 <script >
     $(function (){
         setScroll();
         operate();
+        containerFitScreen();
     });
 
     //设置滚动条
@@ -644,5 +678,7 @@
             $('.filterbg,.tRankPop').fadeOut();
         });
     }
+
+
 </script>
 </html>
