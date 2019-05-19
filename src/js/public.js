@@ -7,8 +7,9 @@ function containerFitScreen() {
 	var viewport_w = window.innerWidth,
 		viewport_h = window.innerHeight,
 		el_w = 1920,
-		el_h = 900;
-	var scale = viewport_w / el_w;
-	el.style.transform = el.style.webkitTransform = "scale(" + scale + ")";
-	document.body.style.overflow = "hidden";
+		el_h = 1080;
+	var scaleX = viewport_w / el_w;
+	var scaleY = viewport_h / el_h;
+	el.style.transform = el.style.webkitTransform = "scale(" + scaleX + ","+scaleY+")";
+	//document.body.style.overflow = "hidden";
 }

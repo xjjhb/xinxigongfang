@@ -4,13 +4,14 @@ body {
 }
 
 .content {
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0px;
-    right: 0px;
-    bottom: 0px;
     overflow: auto;
     transform-origin: top left;
+    width: 1920px;
+    height: 1080px;
+    min-height: 600px;
 }
 
 .head {
