@@ -1,0 +1,587 @@
+.playerL {
+  width: 368px;
+  height:754px;
+  border: 2px solid #7e6603;
+  float: left;
+  margin-left: 14px;
+  margin-right: 17px;
+  position: relative;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  margin-top: 12px;
+}
+
+.playerR {
+  width: 388px;
+  height:757px;
+  float: right;
+  margin-top: 12px;
+  position: relative;
+}
+
+.playerC {
+  width: 780px;
+  height: 757px;
+  position: absolute;
+  left: 403px;
+  right: 464px;
+  top: 12px;
+}
+
+.corner:nth-child(1){
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  padding: 15px;
+  border-style: solid;
+  border-color: #fbc900;
+  border-width: 4px 0 0 4px;
+  border-radius: 8px 0 0 0;
+  -webkit-border-radius: 8px 0 0 0;
+  -moz-border-radius: 8px 0 0 0;
+}
+
+.corner:nth-child(2){
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  padding: 15px;
+  border-style: solid;
+  border-color: #fbc900;
+  border-width: 4px 4px 0 0;
+  border-radius: 0 8px 0 0;
+  -webkit-border-radius: 0 8px 0 0;
+  -moz-border-radius: 0 8px 0 0;
+}
+
+.corner:nth-child(3){
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  padding: 15px;
+  border-style: solid;
+  border-color: #fbc900;
+  border-width: 0 4px 4px 0;
+  border-radius: 0 0 8px 0;
+  -webkit-border-radius: 0 0 8px 0;
+  -moz-border-radius: 0 0 8px 0;
+}
+
+.corner:nth-child(4){
+  position: absolute;
+  left: -2px;
+  bottom: -2px;
+  padding: 15px;
+  border-style: solid;
+  border-color: #fbc900;
+  border-width: 0 0 4px 4px;
+  border-radius: 0 0 0 8px;
+  -webkit-border-radius: 0 0 0 8px;
+  -moz-border-radius: 0 0 0 8px;
+}
+
+.light {
+  width: 244px;
+  height: 14px;
+  background: url("../images/icon-light.png") no-repeat;
+  position: absolute;
+  left: 50%;
+  top: -7px;
+  margin-left: -122px;
+}
+
+.ranking {
+  padding: 0;
+  margin:0;
+  overflow: hidden;
+}
+
+.ranking .title {
+  width: 307px;
+  height: 72px;
+  margin: 0 auto;
+  background: url("../images/icon-ranking.png") no-repeat;
+  margin-top: 16px;
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-weight: normal;
+}
+
+.placing {
+  margin-top: 6px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.placing span {
+  width: 16%;
+  font-size: 22px;
+  color: #fff;
+  line-height: 40px;
+  display: block;
+  float: left;
+}
+
+.placing span:nth-child(1) {
+  width: 20%;
+}
+
+.placing span:nth-child(2) {
+  width: 30%;
+  text-align: left;
+}
+
+.placing span:nth-child(4) {
+  background-image:-webkit-linear-gradient(top,#fadb86,#fcebbb,#ffe58e);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.playerL .list {
+  padding:0;
+  margin-top: 6px;
+  overflow: hidden;
+}
+
+.playerL .list li {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  margin-top: 18px;
+  background: url("../images/ranking-bg.png") no-repeat;
+  line-height: 40px;
+  text-align: center;
+}
+
+.playerL .list li:hover {
+  width: 366px;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #fac800;
+}
+
+.placing-num {
+  width:20%;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+  float: left;
+  background-image:-webkit-linear-gradient(top,#fadb86,#fcebbb,#ffe58e);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.placing-num i {
+  font-style: normal;
+  font-size: 30px;
+  background-image:-webkit-linear-gradient(top,#fadb86,#fcebbb,#ffe58e);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.placing-team {
+  width:30%;
+  float: left;
+}
+
+.placing-team .icon {
+  height: 54px;
+  float: left;
+  margin-right: 10px;
+}
+
+.placing-team .icon img {
+  width: 28px;
+  height: 28px;
+  margin-top: 6px;
+}
+
+.placing-team .name {
+  color: #fff;
+  float: left;
+}
+.placing-score,.placing-lose,.placing-total {
+  width:16%;
+  float: left;
+}
+
+.placing-score {
+  color: #55adff;
+  font-size: 18px;
+}
+
+.placing-lose {
+  color: #ff292e;
+}
+
+.placing-total {
+  color: #fdebb8;
+}
+
+.page-num {
+  margin-top: 10px;
+  overflow: hidden;
+  margin-left: -12px;
+  text-align: center;
+}
+
+.page-num a {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  border: 1px solid #e6cf8c;
+  box-shadow: 0 0 3px #e6cf8c;
+  margin-left: 12px;
+}
+
+.page-num a.first,.page-num a.last {
+  width: 48px;
+}
+
+.announcement,
+.attack_events {
+  width: 384px;
+  height: 428px;
+  border: 2px solid #7e6603;
+  float: left;
+  position: relative;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+}
+
+.announcement .title,
+.attack_events .title {
+  width: 177px;
+  height: 58px;
+  margin: 0 auto;
+  line-height: 58px;
+  margin-top: 30px;
+  font-size: 22px;
+  background-image:-webkit-linear-gradient(top,#fadb86,#fcebbb,#ffe58e);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  text-align: center;
+  position: relative;
+}
+
+.announcement .title:before,
+.attack_events .title:before {
+  content: '';
+  width: 22px;
+  height: 16px;
+  position: absolute;
+  top: 21px;
+  left: 0;
+  background: url("../images/icon-triangle.png") no-repeat;
+}
+
+.announcement .title:after,
+.attack_events .title:after
+{
+  content: '';
+  width: 22px;
+  height: 16px;
+  position: absolute;
+  top: 21px;
+  right: 0;
+  background: url("../images/icon-triangleR.png") no-repeat;
+}
+
+.announcement ul {
+  margin-top: 14px;
+}
+
+.announcement .item {
+  width: 418px;
+  min-height: 90px;
+  margin: 0 auto;
+  background:rgba(229,193,94,.2);
+  margin-top: 14px;
+  border: 1px solid #7e6603;
+  overflow: hidden;
+}
+
+.announcement .date {
+  padding-left: 14px;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.announcement .date i{
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.announcement .date em {
+  font-style: normal;
+  display: inline-block;
+  background-image:-webkit-linear-gradient(top,#fadb86,#fcebbb,#ffe58e);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.announcement .txt {
+  font-size: 14px;
+  line-height: 20px;
+  background-image:-webkit-linear-gradient(top,#fadb86,#fcebbb,#ffe58e);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  padding: 0 18px;
+}
+
+.attack_events{
+  height: 443px;
+  margin-top: 40px;
+}
+
+.events-box {
+  padding: 0 18px;
+}
+
+.clan {
+  overflow: hidden;
+}
+
+.clan span:first-of-type {
+  float: left;
+}
+
+.clan span:last-of-type {
+  float:right;
+}
+
+.clan span {
+  padding: 6px 4px;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #e6cd87;
+  background: rgba(251,201,0,.15);
+}
+
+.clan span i {
+  font-style: normal;
+}
+
+.events-box ul {
+  margin: 0;
+  padding: 0;
+  height: 320px;
+  overflow: hidden;
+}
+
+.events-box ul .item {
+  margin-top: 20px;
+}
+
+.events-box .date {
+  overflow: hidden;
+}
+
+.events-box .item .new {
+  width: 44px;
+  float: left;
+  background: #ff292e;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+}
+
+.events-box .item em {
+  font-style: normal;
+  color: #b8b8b9;
+  float: left;
+  margin-left: 10px;
+}
+
+.events-box .item .dot {
+  width: 44px;
+  height: 16px;
+  background: url("../images/icon-dot.png") no-repeat 16px;
+  background-size: 16px 16px;
+  float: left;
+}
+
+.events-box .txt {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 14px;
+}
+
+.events-box .blue {
+  color: #55adff;
+}
+
+.events-box .red {
+  color: #ff292e;
+}
+
+.events-box .orange {
+  color: #ff7a0f
+}
+
+.clan_info {
+  width: 100%;
+  height: 228px;
+  border: 2px solid #7e6603;
+  float: left;
+  position: relative;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+}
+
+.clan_info .countdown {
+  float: right;
+  margin-top: 22px;
+  overflow: hidden;
+}
+
+.clan_info .countdown em {
+  line-height: 42px;
+  font-size: 16px;
+  color: #fbc900;
+  font-style: normal;
+  float: left;
+  margin-right: 4px;
+}
+
+.clan_info .time {
+  float:left;
+  margin-right: 20px;
+}
+
+.clan_info .time span {
+  width: 28px;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid #fbc900;
+  box-shadow: 0px 0px 10px #fbc900 inset;
+  font-size: 28px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+}
+
+.clan_details {
+  width: 100%;
+  overflow: hidden;
+}
+
+.clan_details .team_logo {
+  width: 130px;
+  height: 130px;
+  float: left;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+.clan_details .team_logo img {
+  width: 130px;
+  height: 130px
+}
+
+.ranking_info {
+  float: left;
+  margin-top: 10px;
+}
+
+.ranking_details {
+  position: relative;
+}
+
+.ranking_details:before {
+  content: '';
+  width: 374px;
+  height: 2px;
+  background: url("../images/line.png") no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ranking_details:after {
+  content: '';
+  width: 374px;
+  height: 2px;
+  background: url("../images/line.png") no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.ranking_info .pos {
+  font-size: 18px;
+  line-height: 64px;
+  background-image:-webkit-linear-gradient(top,#fe2f34,#cb5257,#fe2f34);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  display: inline-block;
+}
+
+.ranking_info .pos i {
+  font-size: 48px;
+  font-style: normal;
+  margin-left: 10px;
+}
+
+.ranking_info .name {
+  margin-left: 32px;
+  font-size: 22px;
+  line-height: 24px;
+  background-image:-webkit-linear-gradient(top,#fe2f34,#f46367,#fe2f34);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  display: inline-block;
+  margin-top: 0;
+}
+
+.war_situation {
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.war_situation span{
+  display: inline-block;
+  margin-right: 42px;
+}
+
+.war_situation span i,
+.war_situation span em {
+  font-style: normal;
+}
+
+.war_situation span i {
+  font-size: 18px;
+  background-image:-webkit-linear-gradient(top,#fadb86,#fcebbb,#ffe58e);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  display: inline-block;
+}
+
+.war_situation span em {
+  font-size: 24px;
+  color: #fff;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.target_drone {
+  height: 640px;
+  border: 1px solid #7e660b;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+}
