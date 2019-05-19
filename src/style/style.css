@@ -9,52 +9,285 @@
     background: url(../images/bg.jpg) no-repeat center top;
     background-size: cover;
 }
-.head{height: 135px;overflow: hidden;}
-.main{position: absolute;top:135px;left:0px;right:0px;bottom:0px;min-height: 565px;min-width: 1650px;}
-.headbg{height: 105px;background: url(../images/headbg.png) no-repeat center;background-size: 100%;margin-top:8px;overflow: hidden;}
-.logoTxt{width: 61%;height: 80px;margin:0 auto;background: url(../images/logotitlebg.png) no-repeat center;margin-top:14px;
+
+.head {
+    height: 135px;
+    overflow: hidden;
+}
+
+.main {
+    position: absolute;
+    top: 135px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    min-height: 565px;
+    min-width: 1650px;
+}
+
+.headbg {
+    height: 105px;
+    background: url(../images/headbg.png) no-repeat center;
+    background-size: 100%;
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.logoTxt {
+    width: 61%;
+    height: 80px;
+    margin: 0 auto;
+    background: url(../images/logotitlebg.png) no-repeat center;
+    margin-top: 14px;
     background-size: 100%;
 }
-.hostedBy{height: 20px;line-height: 20px;text-align: center;font-size: 19px;color:#fbc900;font-weight: bold;}
-.tMLeft{width: 394px;position: absolute;left:10px;top:0px;bottom:0px;}
-.tMRig{width: 508px;position: absolute;right:10px;top:10px;bottom:5px;
-    background: url(../images/sszkbg.png) no-repeat center;background-size: 100% 100%;
-}
-.tMCenter{position: absolute;left:414px;right:528px;top:0px;bottom:0px;}
-.tmcFla{position: absolute;top:0px;left:0px;bottom:0px;right:0px;}
-.tMThree{height: auto;overflow: hidden;display: block;}
-.tmtlis{height: 88px;display: block;box-sizing: border-box;border:2px solid #8b7212;border-radius: 8px;
-    position: relative;margin-top:5px;margin-bottom: 18px;
-}
-.tmlisRadius{display: block;position: absolute;width: 20px;height: 20px;}
-.leftTop{border-left:4px solid #fbc800;border-top:4px solid #fbc800;left:-1px;top:-1px;border-top-left-radius: 8px;}
-.rightTop{border-right:4px solid #fbc800;border-top:4px solid #fbc800;right:-1px;top:-1px;border-top-right-radius: 8px;}
-.rightBottom{border-right:4px solid #fbc800;border-bottom:4px solid #fbc800;right:-1px;bottom:-1px;border-bottom-right-radius: 8px;}
-.leftBottom{border-left:4px solid #fbc800;border-bottom:4px solid #fbc800;left:-1px;bottom:-1px;border-bottom-left-radius: 8px;}
-.tmlisLight{width: 380px;height: 25px;position: absolute;top:-14px;left:50%;margin-left:-190px;background: url(../images/light.png) no-repeat center;}
-.tmtlis_pm{float:left;width: 100px;height: 50px;margin-left:18px;margin-top:15px;}
-.tmtlis_pm.first{background: url(../images/pm1.png) no-repeat center;}
-.tmtlis_pm.second{background: url(../images/pm2.png) no-repeat center;}
-.tmtlis_pm.third{background: url(../images/pm3.png) no-repeat center;}
-.tmtlis_headpic{width: 59px;height: 59px;float:left;margin-top:15px;margin-left:18px;}
-.tmtlis_info{margin-left:210px;height: auto;overflow: hidden;}
-.tmtlis_info_name{height: 22px;line-height: 22px;font-size: 18px;color:#f2c102;margin-top:16px;}
-.tmtlis_info_name span{color:#2291d5;margin-right: 10px;font-weight: bold;}
-.tmtlis_info_score{height: 22px;line-height: 22px;font-size: 24px;font-weight: bold;color:#fdebb3;margin-top:10px;}
 
-.tMRank{padding-top:10px;display: block;position: absolute;left:0px;right:0px;bottom:5px;top:335px;border:2px solid #846b0a;box-sizing: border-box;border-radius: 8px;}
-.tMRankLi{height: 45px;display: block;overflow: hidden;margin-left:30px;margin-top:2px;}
-.tml_index{width: 45px;height: 45px;float:left;background: url(../images/rankbg.png) no-repeat center;
-    text-align: center;line-height: 45px;font-size: 20px;font-weight: bold;color:#fff;
+.hostedBy {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 19px;
+    color: #fbc900;
+    font-weight: bold;
 }
-.tml_name{height: 45px;line-height: 45px;font-size: 14px;color:#fff;font-weight: 600;margin-left:18px;float:left;width: 100px;overflow: hidden;
-    text-overflow: ellipsis;white-space: nowrap;
+
+.tMLeft {
+    width: 394px;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    bottom: 0px;
 }
-.tml_progress{height: 10px;margin-top:17px;border-radius: 10px;background: #121e48;width: 122px;float:left;position: relative;overflow: hidden;}
-.tml_value{height: 45px;line-height: 45px;font-size: 14px;color:#fff;margin-left:18px;float:left;width:50px;overflow: hidden;
-    text-overflow: ellipsis;white-space: nowrap;}
-.tml_progress span{height: 10px;border-radius: 10px;background: linear-gradient(to right,#00fb35,#008cfd);display: block;}
-.tMRankInner{    height: auto;
+
+.tMRig {
+    width: 508px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    bottom: 5px;
+    background: url(../images/sszkbg.png) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.tMCenter {
+    position: absolute;
+    left: 414px;
+    right: 528px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.tmcFla {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.tMThree {
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+
+.tmtlis {
+    height: 88px;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid #8b7212;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+
+.tmlisRadius {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.leftTop {
+    border-left: 4px solid #fbc800;
+    border-top: 4px solid #fbc800;
+    left: -1px;
+    top: -1px;
+    border-top-left-radius: 8px;
+}
+
+.rightTop {
+    border-right: 4px solid #fbc800;
+    border-top: 4px solid #fbc800;
+    right: -1px;
+    top: -1px;
+    border-top-right-radius: 8px;
+}
+
+.rightBottom {
+    border-right: 4px solid #fbc800;
+    border-bottom: 4px solid #fbc800;
+    right: -1px;
+    bottom: -1px;
+    border-bottom-right-radius: 8px;
+}
+
+.leftBottom {
+    border-left: 4px solid #fbc800;
+    border-bottom: 4px solid #fbc800;
+    left: -1px;
+    bottom: -1px;
+    border-bottom-left-radius: 8px;
+}
+
+.tmlisLight {
+    width: 380px;
+    height: 25px;
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    margin-left: -190px;
+    background: url(../images/light.png) no-repeat center;
+}
+
+.tmtlis_pm {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+.tmtlis_pm.first {
+    background: url(../images/pm1.png) no-repeat center;
+}
+
+.tmtlis_pm.second {
+    background: url(../images/pm2.png) no-repeat center;
+}
+
+.tmtlis_pm.third {
+    background: url(../images/pm3.png) no-repeat center;
+}
+
+.tmtlis_headpic {
+    width: 59px;
+    height: 59px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+.tmtlis_info {
+    margin-left: 210px;
+    height: auto;
+    overflow: hidden;
+}
+
+.tmtlis_info_name {
+    height: 22px;
+    line-height: 22px;
+    font-size: 18px;
+    color: #f2c102;
+    margin-top: 16px;
+}
+
+.tmtlis_info_name span {
+    color: #2291d5;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.tmtlis_info_score {
+    height: 22px;
+    line-height: 22px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fdebb3;
+    margin-top: 10px;
+}
+
+.tMRank {
+    padding-top: 10px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 5px;
+    top: 335px;
+    border: 2px solid #846b0a;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.tMRankLi {
+    height: 45px;
+    display: block;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 2px;
+}
+
+.tml_index {
+    width: 45px;
+    height: 45px;
+    float: left;
+    background: url(../images/rankbg.png) no-repeat center;
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.tml_name {
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 18px;
+    float: left;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tml_progress {
+    height: 10px;
+    margin-top: 17px;
+    border-radius: 10px;
+    background: #121e48;
+    width: 122px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.tml_value {
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 18px;
+    float: left;
+    width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tml_progress span {
+    height: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #00fb35, #008cfd);
+    display: block;
+}
+
+.tMRankInner {
+    height: auto;
     overflow: hidden;
     position: absolute;
     top: 7px;
@@ -62,49 +295,507 @@
     bottom: 25px;
     right: 0px;
 }
-.tMRankMore{width: 90px;height: 20px;position: absolute;bottom:5px;left:50%;margin-left:-45px;overflow: hidden;}
-.tMMoreTxt{float:left;font-size: 18px;color:#fadc87;line-height: 20px;}
-.tMMoreIcon{width: 45px;height: 10px;float:left;margin-top:5px;overflow: hidden;margin-left:6px;}
-.tMMoreIcon span{background: url(../images/sjjt.png) no-repeat center;width: 100%;height: 100%;display: block;}
-.tmcTime{width: 364px;height: 54px;line-height:54px;position: absolute;top:18px;left:0px;background: linear-gradient(to right,rgba(153,123,20,1),rgba(15,123,20,0));border-radius: 27px;}
-.tmcTxt{font-size: 22px;color:#fbc900;margin-left:25px;}
-.tmcTimes{font-size: 30px;color:#fdebb8;margin-left:25px;}
 
-.tmcRaceTime{width: 385px;height: 54px;line-height:54px;position: absolute;top:18px;right:0px;background: linear-gradient(to right,rgba(15,123,20,0),rgba(153,123,20,1));border-radius: 27px;}
-.tMRigTitle{height: 30px;line-height: 30px;text-align: center;font-size: 25px;color:#fadc8a;margin-top:15px;}
-.tMRCount{margin-left:25px;margin-right: 25px;margin-top:18px;
-    height:auto;overflow: hidden;}
-.tmclis{    width: 142px;
+.tMRankMore {
+    width: 90px;
+    height: 20px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    margin-left: -45px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.tMMoreTxt {
+    float: left;
+    font-size: 18px;
+    color: #fadc87;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.tMMoreIcon {
+    width: 45px;
+    height: 10px;
+    float: left;
+    margin-top: 5px;
+    overflow: hidden;
+    margin-left: 6px;
+}
+
+.tMMoreIcon span {
+    background: url(../images/sjjt.png) no-repeat center;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.tmcTime {
+    width: 364px;
+    height: 54px;
+    line-height: 54px;
+    position: absolute;
+    top: 18px;
+    left: 0px;
+    background: linear-gradient(to right, rgba(153, 123, 20, 1), rgba(15, 123, 20, 0));
+    border-radius: 27px;
+}
+
+.tmcTxt {
+    font-size: 22px;
+    color: #fbc900;
+    margin-left: 25px;
+}
+
+.tmcTimes {
+    font-size: 30px;
+    color: #fdebb8;
+    margin-left: 25px;
+}
+
+.tmcRaceTime {
+    width: 385px;
+    height: 54px;
+    line-height: 54px;
+    position: absolute;
+    top: 18px;
+    right: 0px;
+    background: linear-gradient(to right, rgba(15, 123, 20, 0), rgba(153, 123, 20, 1));
+    border-radius: 27px;
+}
+
+.tMRigTitle {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 25px;
+    color: #fadc8a;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.tMRCount {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 18px;
+    height: auto;
+    overflow: hidden;
+}
+
+.tmclis {
+    width: 142px;
     height: 38px;
     float: left;
-    background: rgba(251,201,0,0.2);
+    background: rgba(251, 201, 0, 0.2);
     border: 1px solid #a19909;
     line-height: 38px;
     font-size: 12px;
     color: #fdebb8;
     margin-right: 12px;
 }
-.tmclis.marrig0{margin-right: 0px;}
-.tmcliskey{display: block;width: auto;height: 38px;float:left;margin-left:10px;margin-right: 10px;}
-.tmclisVal{font-size: 20px;color:#fff;float:right;margin-right: 6px;}
-.tzkUl{display: block;position: absolute;top:123px;left:25px;right:25px;bottom:10px;overflow: hidden;}
-.tzklis{display: block;height: 59px;background: rgba(251,201,0,0.2);margin-right: 15px;
-    border: 1px solid #a19909;margin-bottom: 8px;}
-.tzklisPicBlue{width: 45px;height: 40px;float:left;border:1px solid #0b44b7;margin-top:10px;margin-left:12px;overflow: hidden;
+
+.tmclis.marrig0 {
+    margin-right: 0px;
 }
 
-.tzklisPicBlueNei{border:2px solid #009446;height: 36px;}
-.tzklisPicRed{width: 45px;height: 40px;float:left;border:1px solid #043dc2;margin-top:9px;margin-left:5px;overflow: hidden;
+.tmcliskey {
+    display: block;
+    width: auto;
+    height: 38px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tmclisVal {
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    margin-right: 6px;
+}
+
+.tzkUl {
+    display: block;
+    position: absolute;
+    top: 123px;
+    left: 25px;
+    right: 12px;
+    bottom: 10px;
+    overflow: hidden;
+}
+
+.tzklis {
+    display: block;
+    height: 59px;
+    background: rgba(251, 201, 0, 0.2);
+    margin-right: 15px;
+    border: 1px solid #a19909;
+    margin-bottom: 8px;
+}
+
+.tzklisPicBlue {
+    width: 45px;
+    height: 40px;
+    float: left;
+    border: 1px solid #0b44b7;
+    margin-top: 10px;
+    margin-left: 12px;
+    overflow: hidden;
+}
+
+.tzklisPicBlueNei {
+    border: 2px solid #009446;
+    height: 36px;
+}
+
+.tzklisPicRed {
+    width: 45px;
+    height: 40px;
+    float: left;
+    border: 1px solid #043dc2;
+    margin-top: 9px;
+    margin-left: 5px;
+    overflow: hidden;
 
 }
-.tzklisPicRedNei{border:2px solid #c90c06;height: 36px;}
-.tzklisInfo{width: 125px;height: auto;overflow: hidden;margin-left:10px;float:left;}
-.tzklisIa{height: 20px;line-height: 20px;font-size: 14px;color:#fdebb8;margin-top:8px;}
-.tzklisIb{height: 20px;line-height: 20px;font-size: 14px;color:#fdebb8;margin-top:3px;}
-.tzklisIbVal{color:#09914d;font-size: 18px;font-weight: bold;}
-.tzklisCenter{width: 50px;float:left;overflow: hidden;}
-.tzklcPic{width: 28px;height: 28px;background: url(../images/zkbg2.png) no-repeat center;margin:0 auto;margin-top:6px;}
-.tzklcTime{height: 20px;line-height: 20px;text-align: center;font-size: 15px;color:#ff292e;margin-top:2px;}
-.txtRed{color:#be070b;}
+
+.tzklisPicRedNei {
+    border: 2px solid #c90c06;
+    height: 36px;
+}
+
+.tzklisInfo {
+    width: 125px;
+    height: auto;
+    overflow: hidden;
+    margin-left: 10px;
+    float: left;
+}
+
+.tzklisIa {
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #fdebb8;
+    margin-top: 8px;
+}
+
+.tzklisIb {
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #fdebb8;
+    margin-top: 3px;
+}
+
+.tzklisIbVal {
+    color: #09914d;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tzklisCenter {
+    width: 50px;
+    float: left;
+    overflow: hidden;
+}
+
+.tzklcPic {
+    width: 28px;
+    height: 28px;
+    background: url(../images/zkbg2.png) no-repeat center;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+
+.tzklcTime {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #ff292e;
+    margin-top: 2px;
+}
+
+.txtRed {
+    color: #be070b;
+}
+
+.filterbg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+}
+
+.tRankPop {
+    width: 1620px;
+    height: 920px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -810px;
+    margin-top: -460px;
+    background: url(../images/pmpopbg.png) no-repeat center;
+    overflow: hidden;
+    display: none;
+}
+
+.trpAllCount {
+    width: 340px;
+    height: 45px;
+    position: absolute;
+    top: 55px;
+    left: 72px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.trpLeft {
+    width: 692px;
+    height: 687px;
+    position: absolute;
+    top: 110px;
+    border: 1px solid #fbc800;
+    border-radius: 10px;
+    overflow: hidden;
+    left: 72px;
+}
+
+.trpRig {
+    width: 692px;
+    height: 687px;
+    border: 1px solid #fbc800;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    top: 110px;
+    right: 72px;
+}
+
+.trpPage {
+    width: 298px;
+    height: 35px;
+    position: absolute;
+    bottom: 82px;
+    left: 50%;
+    margin-left: -149px;
+}
+
+.trpAllCountVal {
+    font-size: 30px;
+    color: #fbc800;
+    font-weight: bold;
+}
+
+.trpHead {
+    height: 38px;
+    display: block;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.trpHeadlis {
+    display: block;
+    width: 95px;
+    height: 38px;
+    float: left;
+    background: url(../images/tabbg.png) no-repeat center;
+    text-align: center;
+    line-height: 36px;
+    font-size: 20px;
+    color: #fbe9b6;
+    background-size: 100%;
+    font-weight: bold;
+}
+
+.trpInner {
+    display: block;
+    height: 620px;
+    overflow: hidden;
+}
+
+.trpInnerLis {
+    height: 55px;
+    overflow: hidden;
+    line-height: 55px;
+    display: block;
+    margin-top: 7px;
+}
+
+.trpInnerLis.forward .trpLisNum,
+.trpInnerLis.forward .trpLisName,
+.trpInnerLis.forward .trpLisScore,
+.trpInnerLis.forward .trpLisLoseScore,
+.trpInnerLis.forward .trpLisTotalScore {
+    color: #fbc800;
+}
+
+.trpInnerLis:nth-child(odd) {
+    background: rgba(251, 200, 0, 0.3)
+}
+
+.trpLisNum {
+    display: block;
+    width: 125px;
+    line-height: 55px;
+    height: 55px;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    color: #edddaf;
+}
+
+.trpLisName {
+    display: block;
+    width: 186px;
+    line-height: 55px;
+    height: 55px;
+    float: left;
+    font-size: 16px;
+    color: #edddaf;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 15px;
+}
+
+.trpLisPic {
+    display: block;
+    width: 31px;
+    height: 31px;
+    float: left;
+    margin-top: 12px;
+}
+
+.trpLisScore {
+    display: block;
+    width: 94px;
+    line-height: 55px;
+    height: 55px;
+    float: left;
+    font-size: 16px;
+    color: #edddaf;
+    margin-right: 25px;
+}
+
+.trpLisLoseScore {
+    display: block;
+    width: 94px;
+    line-height: 55px;
+    height: 55px;
+    float: left;
+    font-size: 16px;
+    color: #edddaf;
+    margin-right: 25px;
+}
+
+.trpLisTotalScore {
+    display: block;
+    width: 94px;
+    line-height: 55px;
+    height: 55px;
+    float: left;
+    font-size: 16px;
+    color: #edddaf;
+    margin-right: 0px;
+}
+
+.trpgeLis {
+    width: auto;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #e5c05c;
+    border-radius: 2px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.trpgeLis:hover {
+    background: rgba(229, 192, 92, 0.6);
+}
+
+.trpBack {
+    width: 180px;
+    height: 46px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -90px;
+    background: url(../images/backhome.png) no-repeat center;
+    cursor: pointer;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    color: #fbc800;
+}
+
+.trpBack:hover {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.leftToRightFla {
+    animation: leftToRight 1s linear infinite;
+}
+
+.tMRankMore:hover .tMMoreIcon span {
+    animation: leftToRight 1s linear infinite;
+}
+
+.txtJbBlue {
+    background: -webkit-linear-gradient(top, #f5fafd, #2291d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.txtJbYellow {
+    background: -webkit-linear-gradient(top, #fadb86, #fcebbb, #fadb86);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wid110 {
+    width: 110px;
+}
+
+.marleft20 {
+    margin-left: 20px;
+}
+
+.marleft50 {
+    margin-left: 50px;
+}
+
+.marleft24 {
+    margin-left: 24px;
+}
+
+.marleft33 {
+    margin-left: 33px;
+}
+
+@keyframes leftToRight {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(100%, 0)
+    }
+}
+
 
 
