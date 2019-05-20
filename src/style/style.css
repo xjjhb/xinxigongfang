@@ -909,12 +909,38 @@ body {
     height: 100%;
     border: 1px solid #c5b790;
     background: rgba(251, 200, 0, 0.15);
+    margin-right: 48px;
 }
 
+.over_btenlis:last-child{margin-right: 0px;}
 .over_btenlis_title {
     margin-top: 25px;
     text-align: center;
+    font-size: 25px;font-weight: bold;
+
 }
+.obt_num{font-size: 32px;}
+.obt_top{margin-left:10px;}
+
+
+
+
+.over_bten .trpLisNum{width: 120px;font-size: 16px;}
+.over_bten .trpLisTotalScore{width: 65px;}
+.over_bten .trpLisName{width: 155px;font-weight: bold;}
+.trpLisNumVal{font-size: 30px;font-weight: bold;}
+.over_bten .trpInnerLis:nth-child(odd){background: none;}
+
+/*队伍详情*/
+.dw_left{position: absolute;top:0px;left:0px;bottom:0px;
+    width: 488px;
+}
+.dw_rig{position: absolute;top:0px;right:0px;bottom:0px;
+    width: 542px;}
+.dw_center{position: absolute;top:0px;right:542px;bottom:0px;
+    left:488px;background: red;}
+
+
 
 /*
 ------------------------------------------------------------------------------------------
