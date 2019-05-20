@@ -1,6 +1,7 @@
 body {
     background: url(../images/bg.jpg) no-repeat center top;
     background-size: cover;
+    overflow: hidden;
 }
 
 .content {
@@ -757,22 +758,162 @@ body {
     animation: leftToRight 1s linear infinite;
 }
 
-.txtJbBlue {
-    background: -webkit-linear-gradient(top, #f5fafd, #2291d5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.txtJbYellow {
-    background: -webkit-linear-gradient(top, #fadb86, #fcebbb, #fadb86);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .setWidHei {
     width: 1920px;
     height: 1080px;
     position: relative
+}
+
+/*结束页面*/
+.over_a {
+    height: auto;
+    overflow: hidden;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.over_alis {
+    width: 277px;
+    height: 66px;
+    float: left;
+    background: #7e650d;
+    border: 1px solid #fffa7d;
+    font-size: 20px;
+    color: #fff;
+    line-height: 66px;
+    text-align: center;
+}
+
+.over_alis_key {
+    display: block;
+    float: left;
+    margin-left: 30px;
+}
+
+.over_alis_val {
+    margin-left: 25px;
+    font-size: 36px;
+    font-weight: bold;
+    display: block;
+    float: left;
+}
+
+.special3 {
+    font-size: 24px;
+    margin-left: 0px;
+    text-align: center;
+    float: none;
+}
+
+.over_alis_left {
+    width: 50%;
+    float: left;
+}
+
+.special4 {
+    float: right;
+}
+
+.over_al_key {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.over_al_val {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.over_b {
+    position: absolute;
+    top: 98px;
+    left: 0px;
+    right: 0px;
+    bottom: 10px;
+    background: url(../images/overpop1bg.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.ob_inner {
+    position: absolute;
+    border: 1px solid #fbc800;
+    left: 45px;
+    top: 78px;
+    right: 45px;
+    bottom: 78px;
+    border-radius: 10px;
+}
+
+.ob_inner_lis {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 50%;
+    bottom: 0px;
+}
+
+.ob_inner_lisrig {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    right: 0;
+    bottom: 0px;
+}
+
+.over_b .trpLisName {
+    width: 255px;
+}
+
+.over_b .trpLisTotalScore {
+    text-align: center;
+}
+
+.over_b .trpLisPic {
+    margin-left: 70px;
+}
+
+.over_b .trpPage {
+    bottom: 35px;
+}
+
+.over_bten {
+    position: absolute;
+    top: 98px;
+    left: 0px;
+    right: 0px;
+    bottom: 10px;
+    background: url(../images/overpop2bg.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.over_bteninner {
+    position: absolute;
+    top: 80px;
+    left: 48px;
+    right: 54px;
+    bottom: 50px;
+}
+
+.over_btenlis {
+    width: 415px;
+    float: left;
+    height: 100%;
+    border: 1px solid #c5b790;
+    background: rgba(251, 200, 0, 0.15);
+}
+
+.over_btenlis_title {
+    margin-top: 25px;
+    text-align: center;
 }
 
 /*
@@ -787,16 +928,36 @@ body {
     margin-left: 20px;
 }
 
-.marleft50 {
-    margin-left: 50px;
-}
-
 .marleft24 {
     margin-left: 24px;
 }
 
+.marleft30 {
+    margin-left: 30px;
+}
+
 .marleft33 {
     margin-left: 33px;
+}
+
+.marleft50 {
+    margin-left: 50px;
+}
+
+.marleft90 {
+    margin-left: 90px;
+}
+
+.marleft100 {
+    margin-left: 100px;
+}
+
+.marleft130 {
+    margin-left: 130px;
+}
+
+.marleft150 {
+    margin-left: 150px;
 }
 
 @keyframes leftToRight {
@@ -808,5 +969,14 @@ body {
     }
 }
 
+.txtJbBlue {
+    background: -webkit-linear-gradient(top, #f5fafd, #2291d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
-
+.txtJbYellow {
+    background: -webkit-linear-gradient(top, #fadb86, #fcebbb, #fadb86);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
