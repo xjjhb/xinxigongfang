@@ -30,10 +30,7 @@
                 <div class="dw_lc">
                     <div class="dw_lc_pic"><img src="images/icon.png" width="100%" height="100%" /></div>
                     <div class="dw_lc_txt txtJbYellow">总分</div>
-                    <div class="dw_lc_val">
-                        <img src="images/number/3.png" />
-                        <img src="images/number/4.png" />
-                    </div>
+                    <div class="dw_lc_val totalScore"></div>
                 </div>
             </div>
             <div class="dw_center"></div>
@@ -52,5 +49,6 @@
         eleArr.push(ele);
     }
     console.log(eleArr);
+    $('.totalScore').append(eleArr.join(''));
 </script>
 </html>
