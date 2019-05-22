@@ -19,9 +19,22 @@
         </div>
         <div class="main">
             <div class="dw_left">
-                <div class="dw_la"></div>
-                <div class="dw_lb"></div>
-                <div class="dw_lc"></div>
+                <div class="dw_la">
+                    <span class="dw_la_txt txtJbYellow">比赛倒计时</span>
+                    <span class="dw_la_val">1天12时30:12</span>
+                </div>
+                <div class="dw_lb">
+                    <span class="dw_lb_txt">吧啦吧啦战队</span>
+                    <span class="dw_lb_val txtJbYellow">战队排名<span class="dw_lb_valnum">5</span></span>
+                </div>
+                <div class="dw_lc">
+                    <div class="dw_lc_pic"><img src="images/icon.png" width="100%" height="100%" /></div>
+                    <div class="dw_lc_txt txtJbYellow">总分</div>
+                    <div class="dw_lc_val">
+                        <img src="images/number/3.png" />
+                        <img src="images/number/4.png" />
+                    </div>
+                </div>
             </div>
             <div class="dw_center"></div>
             <div class="dw_rig"></div>
@@ -32,6 +45,12 @@
 <script src="./js/perfect-scrollbar.jquery.js"></script>
 <script src="./js/public.js"></script>
 <script >
-
+    var totalScore = '4789652';
+    var eleArr = [];
+    for(var i=0;i<totalScore.length;i++){
+        var ele = '<img src="images/number/'+totalScore[i]+'.png" />';
+        eleArr.push(ele);
+    }
+    console.log(eleArr);
 </script>
 </html>
