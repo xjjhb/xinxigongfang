@@ -941,11 +941,14 @@ body {
     left:488px;}
 
 .dw_la{height: 50px;line-height: 50px;overflow: hidden;margin-left:15px;}
-.dw_la_txt{display: block;line-height: 50px;float:left;font-size: 26px;}
+.dw_la_txt{display: block;line-height: 50px;float:left;font-size: 26px;font-weight: bold;
+    margin-right: 10px;
+}
 .dw_la_val{display: block;line-height: 50px;float:left;font-size: 40px;color:#fff;font-weight: bold;}
 
 .dw_lb{height: 55px;line-height: 55px;overflow: hidden;margin-left:15px;
     background: url(../images/dwbg1.png) no-repeat left center;
+    margin-top:26px;margin-bottom: 8px;
 }
 .dw_lb_txt{display: block;float:left;font-size: 34px;color:#fff;height: 55px;line-height: 55px;width: 275px;
     overflow: hidden;text-overflow: ellipsis;white-space: nowrap;
@@ -960,14 +963,68 @@ body {
 .dw_lc_pic{height: 78px;width: 78px;float:left;overflow: hidden;margin-left:28px;margin-top:15px;}
 .dw_lc_txt{height: 115px;float:left;font-size: 28px;font-weight: bold;margin-left:30px;margin-right: 15px;line-height: 115px;}
 .dw_lc_val{width: 270px;height: 61px;float:left;margin-top:27px;}
+.totalScore img{width: 35px;}
+.dw_attack{height: auto;overflow: hidden;margin-left:15px;}
+.dw_attack_title{height: 35px;line-height: 35px;text-align: center;overflow: hidden;
+    margin-top:15px;margin-bottom: 15px;
+}
+.dw_at_border{display: block;width: 8px;height: 35px;float:left;
+    background: url(../images/titleleftbg.png) no-repeat center;margin-left:165px;}
+.dw_at_txt{display: block;width: auto;height: 35px;margin-left:15px;float:left;line-height: 35px;
+    background: url(../images/titleleftbg.png) no-repeat;font-size: 24px;font-weight: bold;}
+
+.dw_crt {
+    padding-top: 10px;
+    position: relative;
+    height: 265px;
+    border: 2px solid #846b0a;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.dw_crt_lis{    width: 110px;
+    height: 110px;
+    float: left;
+    margin-left: 22px;
+    margin-right: 22px;overflow: hidden;position: relative;
+    margin-top: 10px;}
+.dw_crt_info{width: 100%;height: 100%;position: absolute;top:0px;left:0px;}
+.dw_crt_txt{width: 100%;height: 100%;position: absolute;top:0px;left:0px;overflow: hidden;}
+.dw_crtt_val{height: 20px;line-height: 20px;text-align: center;font-size: 18px;color:#fff;display: block;
+    margin-top:30px;margin-bottom: 4px;
+}
+.dw_crtt_key{height: 20px;line-height: 20px;text-align: center;font-size: 18px;color:#fff;display: block;}
+
+
+.dw_crtpm {
+    padding-top: 10px;
+    margin-top:20px;
+    position: relative;
+    height: 325px;margin-left:15px;
+    border: 2px solid #846b0a;
+    box-sizing: border-box;overflow: hidden;
+    border-radius: 8px;
+}
+
+.dw_crtpm .trpLisNum{width: 80px;height:44px;
+    text-align: center;line-height: 44px;margin-left:30px;margin-right: 10px;
+    margin-top:6px;font-weight: bold;font-size: 24px;
+}
+.dw_crtpm .trpLisNum.hasBg{background: url(../images/numbg.png) no-repeat center;}
+.dw_crtpm .trpInnerLis:nth-child(odd) {
+    background: none;
+}
+.dw_crtpm .trpLisName{width: 282px;font-weight: bold;}
+.dw_crtpm .trpInner{height: auto;}
+.dw_crtpm .trpLisName{font-weight: bold;}
+.dw_crtpm .dw_attack_title {margin-bottom: 0px;margin-top:5px;}
+.dw_crtpm .trpLisPic{width: 48px;height: 48px;margin-top:3px;}
 
 
 
 
-
-/*
-------------------------------------------------------------------------------------------
-*/
+    /*
+    ------------------------------------------------------------------------------------------
+    */
 
 .wid110 {
     width: 110px;
