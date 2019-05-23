@@ -1018,7 +1018,28 @@ body {
 .dw_crtpm .trpLisName{font-weight: bold;}
 .dw_crtpm .dw_attack_title {margin-bottom: 0px;margin-top:5px;}
 .dw_crtpm .trpLisPic{width: 48px;height: 48px;margin-top:3px;}
+.dw_gjsj{position: absolute;top:60px;left:0px;right:0px;bottom:0px;overflow: hidden;
+    border: 2px solid #846b0a;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
 
+.dw_gjsj .dw_at_border{margin-left:202px;}
+.dw_attact_tcount{height: auto;overflow: hidden;margin-left:16px;margin-right: 16px;}
+.dw_at_lis{width: 154px;height: 40px;float:left;border:1px solid #9b9608;background: rgba(155,150,0,0.4);
+    text-align: center;line-height: 40px;color:#fdebb8;
+}
+.dw_at_lis.floatright{float:right;}
+.dw_attact_data{height: auto;position: absolute;top:120px;left:16px;right:16px;bottom:0px;display: block;
+
+}
+
+.dw_adlis{height: auto;overflow: hidden;border:1px solid #9b9608;background: rgba(155,150,0,0.4);padding-top:10px;padding-bottom: 10px;}
+.dw_adlis_time{height: 25px;line-height: 25px;}
+.dw_adt_d{font-size: 14px;color:#fdebb8;display: block;float:left;}
+.dw_adt_cir{display: block;float:left;width: 8px;height: 8px;border-radius: 8px;background: #fc3f01;
+    margin-top:8px;margin-left:10px;margin-right: 10px;
+}
 
 
 
