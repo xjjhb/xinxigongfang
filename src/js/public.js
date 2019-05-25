@@ -29,5 +29,4 @@ function setScroll(){
     if($('.hasScroll').length > 0){
         $('.hasScroll').perfectScrollbar();
     }
-
 }
