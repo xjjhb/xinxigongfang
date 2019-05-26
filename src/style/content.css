@@ -932,7 +932,7 @@
 /*裁判页 相关样式*/
 
 .judgmentT {
-    margin: 10px 45px 10px 45px;
+    margin: 10px 40px 10px 40px;
     position: relative;
     overflow: hidden;
 }
@@ -940,7 +940,7 @@
 .match-box {
     width: 432px;
     height: 130px;
-    padding-right: 20px;
+    padding-right: 17px;
     float: left;
     border: 2px solid #8b7211;
     position: relative;
@@ -976,7 +976,7 @@
 
 .judgmentT .countdown .time {
     width: 100%;
-    font-size: 32px;
+    font-size: 28px;
     color: #fff;
     display: block;
     line-height: 52px;
@@ -1026,7 +1026,11 @@
     width: 364px;
 }
 
-.match-box.W364:last-child {
+.match-box.W370 {
+    width: 370px;
+}
+
+.match-box.W370:last-child {
     margin-right: 0;
 }
 
@@ -1104,6 +1108,7 @@
     -webkit-text-fill-color: transparent;
     margin: 116px 30px 0 30px;
     float: left;
+    font-weight: bold;
 }
 
 .judgmentL .list {
@@ -1112,6 +1117,8 @@
     height: 356px;
     overflow: hidden;
     padding-bottom: 8px;
+    display: block;
+    width: 680px;
 }
 
 .judgmentL .list li {
@@ -1166,7 +1173,7 @@
     position: absolute;
     right: 40px;
     top: 166px;
-    bottom: 5px;
+    bottom: 11px;
     border: 2px solid #8b7211;
     border-radius: 0 8px 0 0;
     -webkit-border-radius: 0 8px 0 0;
@@ -1185,4 +1192,313 @@
     display: block;
     height: auto;
     overflow: hidden;
+}
+
+.hei370 {
+    height: 370px;
+}
+
+.cp_llright {
+    margin-left: 75px;
+    height: 370px;
+    overflow: hidden;
+    margin-right: 28px;
+}
+
+.cp_lhead {
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #c4b74d;
+    background: rgba(196, 183, 77, 0.5);
+    margin-top: 20px;
+    display: block;
+}
+
+.cp_tablis {
+    height: 35px;
+    display: block;
+    line-height: 35px;
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cp_ltable {
+    height: 302px;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.cp_ltable .cp_tablis {
+    font-size: 14px;
+    color: #fbe5a9;
+}
+
+.cp_ltable_li {
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #33290a;
+}
+
+.jdg_title {
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 37px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.jdg_table_head {
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    display: block;
+}
+
+.jdg_thlis {
+    display: block;
+    float: left;
+    font-size: 20px;
+    line-height: 50px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.jdg_table_data {
+    display: block;
+    height: auto;
+    position: absolute;
+    top: 133px;
+    left: 0px;
+    right: 0px;
+    bottom: 68px;
+    overflow: hidden;
+    border-top: 1px solid #665108;
+}
+
+.jdg_tdlis {
+    height: 79px;
+    border-bottom: 1px solid #3d2c10;
+}
+
+.jdg_tdlis .jdg_thlis {
+    height: 75px;
+    border-right: 1px solid #35353f;
+    overflow: hidden;
+    margin-top: 2px;
+    box-sizing: border-box;
+}
+
+.jdg_tdlis .jdg_thlis.gj {
+    width: 130px;
+    line-height: 75px;
+    color: #8fe5f6;
+}
+
+.jdg_tdlis .jdg_thlis.bgj {
+    width: 150px;
+    line-height: 75px;
+    color: #2b5ce5;
+}
+
+.jdg_tdlis .jdg_thlis.fz {
+    width: 125px;
+    line-height: 75px;
+}
+
+.jdg_tdlis .jdg_thlis.zf {
+    width: 90px;
+    line-height: 75px;
+    color: #c03706;
+}
+
+.jdg_tdlis .jdg_thlis.fz.redNum {
+    color: #c03706;
+}
+
+.jdg_tdlis .jdg_thlis.fz.greenNum {
+    color: #1c801d;
+}
+
+.jdg_thlis_pic {
+    width: 45px;
+    height: 45px;
+    float: left;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 17px;
+}
+
+.jdg_thlis_rig {
+    overflow: hidden;
+    margin-left: 75px;
+}
+
+.jdg_tr_num {
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.jdg_tr_number {
+    height: 30px;
+    text-align: left;
+    margin-top: 2px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.jdg_tr_number .value {
+    font-size: 28px;
+}
+
+.bj_state {
+    width: 50px;
+    height: 50px;
+    display: block;
+    float: left;
+    border: 2px solid #fffe8a;
+    margin-top: 10px;
+    margin-left: 7px;
+    overflow: hidden;
+}
+
+.bj_snei {
+    display: block;
+    width: 42px;
+    height: 42px;
+    border: 2px solid #fffe8a;
+    margin-left: 2px;
+    margin-top: 2px;
+    background: #fbc800;
+    overflow: hidden;
+}
+
+.bj_snpic {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.bj_state.state1 .bj_snpic {
+    background: url(../images/bj_state1.jpg) no-repeat center;
+    animation: stateFla 5s linear infinite;
+}
+
+.bj_state.state2 .bj_snpic {
+    background: url(../images/bj_state2.png) no-repeat center;
+    animation: state2Fla 5s linear infinite;
+}
+
+@keyframes stateFla {
+    0% {
+        transform: rotate(0deg) scale(1.5, 1.5);
+    }
+    100% {
+        transform: rotate(360deg) scale(1.5, 1.5);
+    }
+}
+
+@keyframes state2Fla {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pageS {
+    height: 68px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.bj_state_txt {
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    right: 20px;
+    bottom: 18px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pageS .page-num {
+    margin-top: 17px;
+}
+
+.bj_st_tips {
+    position: absolute;
+    right: 145px;
+    bottom: 0px;
+    background: url(../images/tips_bg.png) repeat;
+    width: 428px;
+    height: 70px;
+    display: none;
+}
+
+.wid50 {
+    width: 50px;
+}
+
+.wid60 {
+    width: 60px;
+}
+
+.wid72 {
+    width: 72px;
+}
+
+.wid75 {
+    width: 75px;
+}
+
+.wid80 {
+    width: 80px;
+}
+
+.wid90 {
+    width: 90px;
+}
+
+.wid125 {
+    width: 125px;
+}
+
+.wid130 {
+    width: 130px;
+}
+
+.wid150 {
+    width: 150px;
+}
+
+.wid190 {
+    width: 190px;
+}
+
+.wid310 {
+    width: 310px;
+}
+
+.wid314 {
+    width: 314px;
 }

@@ -273,8 +273,9 @@
         </div>
     </div>
 </body>
-<script src="./js/jquery-1.10.2.min.js"></script>
-<script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
+<script src="./js/jquery-1.8.2.min.js"></script>
+<!--<script src="http://echarts.baidu.com/build/dist/echarts.js"></script>-->
+<script src="./js/echarts.js"></script>
 <script src="./js/perfect-scrollbar.jquery.js"></script>
 <script src="./js/public.js"></script>
 <script >
@@ -344,7 +345,6 @@
 
     };
     function attackCrt(){
-
         //赋值
         $('#crt_gps').parent().find('.dw_crtt_val').text(crtData.gpsNum+'%');
         $('#crt_gjs').parent().find('.dw_crtt_val').text(crtData.gjsNum+'%');
@@ -355,7 +355,7 @@
         // 路径配置
         require.config({
             paths: {
-                echarts: 'http://echarts.baidu.com/build/dist'
+                echarts: './js/dist' //echarts.js的路径
             }
         });
 
