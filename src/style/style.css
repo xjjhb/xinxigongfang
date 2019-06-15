@@ -43,14 +43,28 @@ body {
     margin-top: 14px;
     background-size: 100%;
 }
+.logoTitle{
+    display:block;
+    height: 80px;
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+    background: -webkit-linear-gradient(top, #f4ca54, #f8f0db, #f4ca54);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 6px;
+
+}
 
 .hostedBy {
     height: 20px;
     line-height: 20px;
-    text-align: center;
+    text-align: right;
     font-size: 19px;
     color: #fbc900;
     font-weight: bold;
+    padding-right: 20px;
 }
 
 .tMLeft {
@@ -65,10 +79,19 @@ body {
     width: 508px;
     position: absolute;
     right: 10px;
-    top: 10px;
-    bottom: 5px;
-    background: url(../images/sszkbg.png) no-repeat center;
-    background-size: 100% 100%;
+    top: 18px;
+    height:410px;
+    border: 2px solid #2b5566;
+    border-radius: 8px;
+}
+.tMRigGG {
+    width: 508px;
+    position: absolute;
+    right: 10px;
+    top: 456px;
+    height:475px;
+    border: 2px solid #2b5566;
+    border-radius: 8px;
 }
 
 .tMCenter {
@@ -97,11 +120,13 @@ body {
     height: 88px;
     display: block;
     box-sizing: border-box;
-    border: 2px solid #8b7212;
+    border: 2px solid #2b5566;
     border-radius: 8px;
     position: relative;
     margin-top: 5px;
     margin-bottom: 18px;
+    
+    background: linear-gradient(rgba(51,228,201,0.4),rgba(51,228,201,0));
 }
 
 .tmlisRadius {
@@ -112,32 +137,32 @@ body {
 }
 
 .leftTop {
-    border-left: 4px solid #fbc800;
-    border-top: 4px solid #fbc800;
+    border-left: 4px solid #277f99;
+    border-top: 4px solid #277f99;
     left: -1px;
     top: -1px;
     border-top-left-radius: 8px;
 }
 
 .rightTop {
-    border-right: 4px solid #fbc800;
-    border-top: 4px solid #fbc800;
+    border-right: 4px solid #277f99;
+    border-top: 4px solid #277f99;
     right: -1px;
     top: -1px;
     border-top-right-radius: 8px;
 }
 
 .rightBottom {
-    border-right: 4px solid #fbc800;
-    border-bottom: 4px solid #fbc800;
+    border-right: 4px solid #277f99;
+    border-bottom: 4px solid #277f99;
     right: -1px;
     bottom: -1px;
     border-bottom-right-radius: 8px;
 }
 
 .leftBottom {
-    border-left: 4px solid #fbc800;
-    border-bottom: 4px solid #fbc800;
+    border-left: 4px solid #277f99;
+    border-bottom: 4px solid #277f99;
     left: -1px;
     bottom: -1px;
     border-bottom-left-radius: 8px;
@@ -218,7 +243,7 @@ body {
     right: 0px;
     bottom: 5px;
     top: 335px;
-    border: 2px solid #846b0a;
+    border: 2px solid #2b5566;
     box-sizing: border-box;
     border-radius: 8px;
 }
@@ -340,7 +365,7 @@ body {
     position: absolute;
     top: 18px;
     left: 0px;
-    background: linear-gradient(to right, rgba(153, 123, 20, 1), rgba(15, 123, 20, 0));
+    background: linear-gradient(to right, rgba(1, 96, 129, 1), rgba(1, 96, 129, 0));
     border-radius: 27px;
 }
 
@@ -351,7 +376,7 @@ body {
 }
 
 .tmcTimes {
-    font-size: 30px;
+    font-size: 26px;
     color: #fdebb8;
     margin-left: 25px;
 }
@@ -363,7 +388,7 @@ body {
     position: absolute;
     top: 18px;
     right: 0px;
-    background: linear-gradient(to right, rgba(15, 123, 20, 0), rgba(153, 123, 20, 1));
+    background: linear-gradient(to right, rgba(1, 96, 129, 0), rgba(1, 96, 129, 1));
     border-radius: 27px;
 }
 
@@ -389,8 +414,8 @@ body {
     width: 142px;
     height: 38px;
     float: left;
-    background: rgba(251, 201, 0, 0.2);
-    border: 1px solid #a19909;
+    background: #086689;
+    border: 1px solid #009ef9;
     line-height: 38px;
     font-size: 12px;
     color: #fdebb8;
@@ -430,9 +455,9 @@ body {
 .tzklis {
     display: block;
     height: 59px;
-    background: rgba(251, 201, 0, 0.2);
+    background: linear-gradient(rgba(51,222,228,0.4),rgba(51,222,228,0));
     margin-right: 15px;
-    border: 1px solid #a19909;
+    border: 1px solid #065585;
     margin-bottom: 8px;
 }
 
@@ -564,7 +589,7 @@ body {
     height: 687px;
     position: absolute;
     top: 110px;
-    border: 1px solid #fbc800;
+    border: 1px solid #00b2ff;
     border-radius: 10px;
     overflow: hidden;
     left: 72px;
@@ -573,7 +598,7 @@ body {
 .trpRig {
     width: 692px;
     height: 687px;
-    border: 1px solid #fbc800;
+    border: 1px solid #00b2ff;
     border-radius: 10px;
     overflow: hidden;
     position: absolute;
@@ -613,7 +638,7 @@ body {
     line-height: 36px;
     font-size: 20px;
     color: #fbe9b6;
-    background-size: 100%;
+    background-size: 100% 100%;
     font-weight: bold;
 }
 
@@ -640,7 +665,7 @@ body {
 }
 
 .trpInnerLis:nth-child(odd) {
-    background: rgba(251, 200, 0, 0.3)
+    background: rgba(25, 81, 93, 0.8)
 }
 
 .trpLisNum {
@@ -716,7 +741,7 @@ body {
     padding-right: 10px;
     height: 24px;
     line-height: 24px;
-    border: 1px solid #e5c05c;
+    border: 1px solid #169bcc;
     border-radius: 2px;
     overflow: hidden;
     font-size: 12px;
@@ -727,7 +752,7 @@ body {
 }
 
 .trpgeLis:hover {
-    background: rgba(229, 192, 92, 0.6);
+    background: rgba(22, 155, 204, 0.6);
 }
 
 .trpBack {
@@ -737,7 +762,8 @@ body {
     bottom: 0px;
     left: 50%;
     margin-left: -90px;
-    background: url(../images/backhome.png) no-repeat center;
+    background: url(../images/tabbg.png) no-repeat center;
+    background-size: 100% 100%;
     cursor: pointer;
     text-align: center;
     line-height: 46px;
@@ -1401,3 +1427,29 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+/*20190614 修改*/
+
+.tmgMain{position: absolute;top:75px;left:0px;right:0px;bottom:0px;overflow: hidden;}
+.tmgLis{width: 44%;height: 100%;float:left;overflow: hidden;padding-left:3%;padding-right:3%;}
+.tmgLisCrt{height:142px;width: 142px;background: url(../images/cir_zk.png) no-repeat center;
+    margin:0 auto;margin-top:10px;position: relative;
+}
+.tmgLisTxt{font-size: 22px;text-align: center;height: 30px;line-height: 30px;}
+.tmgLisCrt .num{position: absolute;height: 20px;line-height: 20px;width: 100%;
+    top:50%;margin-top:-10px;color:#fff;font-size: 22px;text-align: center;display: block;
+}
+
+
+.martop20{margin-top:20px;}
+.tmgUl{display: block;overflow: hidden;}
+.tmgUl .dw_adlis{border:none;background: none;}
+.tmgUl .dw_adt_cir{background: #00b7ee;}
+.tmgUl .dw_adt_d{color:#fff;}
+.tmgUl .dw_adlis{    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;}
+.tmgLine{width: 2px;height: 370px;position: absolute;top:50%;left:50%;margin-top:-185px;margin-left:-1px;background: url(../images/cir_mid.png) no-repeat center;}
+
+
